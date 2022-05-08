@@ -38,11 +38,5 @@ def main():
     print('Done %sing %s (%s characters).' % (mode, inputfile,len(content)))
     print('%sed file is %s.' % (mode.title(), outputfile))
 
-    if sendmailStatus != {}:
-        print('There was a problem occur')
-
-    smtpobj.quit()
-    outputFileObj.close()
-
 if __name__ == '__main__':
     main()   
