@@ -1,4 +1,4 @@
-# Cipher-Program
+# Cipher Program
 This repository includes cryptography program using two traditional cipher method which are Caesar cipher and transposition cipher.
 
 1) caesarcipher.py contains program to encrypt and decrypt message input by user using Caesar cipher cryptography technique. User can choose to use either encrypt or decrypt mode. User can also specify the key to be used.
